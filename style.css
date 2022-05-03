@@ -18,6 +18,7 @@ body {
  height: 20rem;   
  color: #ffbd59;
  background: rgb(0,15,34);
+ background: linear-gradient(180deg, rgba(0,15,34,1) 95%, rgba(0,15,34,0) 100%); 
  display: grid;
  grid-template-columns: 1fr 1fr 1fr; 
  grid-template-rows: 0.5fr 0.5fr;
@@ -164,6 +165,7 @@ align-items: center;
 
  height: 10rem;
  background: rgb(0,15,34);
+ background: linear-gradient(180deg, rgba(0,15,34,0) 0%, rgba(0,15,34,1) 10%);
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 1fr 1fr 1fr;
