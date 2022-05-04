@@ -76,6 +76,13 @@ body {
 
 }
 
+li :hover {
+
+font-size: 120%;
+transition: all 0.5s; 
+
+}
+
 
 .link-nav {
 
@@ -216,6 +223,13 @@ justify-content: flex-end;
 
  width: 35%;
  height: auto;
+
+}
+
+.container-img-redes :hover {
+
+transform: scale(1.5);
+transition: all 0.5s;   
 
 }
 
