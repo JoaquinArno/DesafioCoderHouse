@@ -1,4 +1,4 @@
-* {
+{
 
  margin: 0;
  padding: 0;
@@ -6,10 +6,10 @@
 
 }
 
-body {
+ body {
 
  background-image: url(./imagenes/fondo.png);
-   
+
 }
 
 
@@ -78,8 +78,8 @@ body {
 
 li :hover {
 
-font-size: 120%;
 transition: all 0.5s; 
+color: #f4dfc0;
 
 }
 
@@ -92,78 +92,18 @@ transition: all 0.5s;
 }
 
 
-.articulos {
- 
- width: 100%;
- height: 100%;   
- padding-bottom: 15%;
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr 1fr;
- justify-items: center;
- align-items: center;
- 
-}    
+.texto-carousel {
 
-
-.container-articulo {
-
- width: 68%;    
- grid-row: 1 / span 3;
+ color:rgb(0,15,34);
 
 }
 
-
-
-.img-art {
-
- width: 70%;
- padding-top: 9%;
- padding-left: 9%;
- height: auto;
-
-}
-
-
-.container-parrafo {
-
- font-size: 120%;
- color: #ffbd59;
- background-color: #000f22;
- padding: 4%;
- 
-}
-
-.directores {
-
- display: grid; 
- grid-template-columns: 1fr; 
- grid-template-rows: 1fr 1fr 1fr; 
- row-gap: 3px;
-
-}
-
-.container-director {
-
-display: grid;
-grid-template-columns: 1fr 4fr;
-grid-template-rows: 1 fr;
-justify-items: center;
-align-items: center;
-
-}
-
-.img-dir {
-
- width: 70%;
- padding-left: 9%;
- height: auto;
-
-}
 
 .texto-director {
 
- width: 70%;
+ color: rgb(0,15,34);
+ background-color: #ffbd59;
+ text-align: center;
 
 }
 
