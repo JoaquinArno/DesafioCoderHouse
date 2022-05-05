@@ -98,42 +98,13 @@ color: #f4dfc0;
 
 }
 
-
-.directores {
-
- display: grid; 
- grid-template-columns: 1fr; 
- grid-template-rows: 1fr 1fr 1fr; 
- row-gap: 3px;
-
-}
-
-.container-director {
-
-display: grid;
-grid-template-columns: 1fr 4fr;
-grid-template-rows: 1 fr;
-justify-items: center;
-align-items: center;
-
-}
-
-
-.img-dir {
-
- width: 70%;
- padding-left: 9%;
- height: auto;
-
-}
-
-
 .texto-director {
 
- width: 70%;
+ color:rgb(0,15,34);
+ background-color: #ffbd59;
+ text-align: center;
 
 }
-
 
 .pie {
 
