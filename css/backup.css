@@ -125,7 +125,6 @@ color: #ffbd59;
 
 .link-art {
 
-font-weight:;
 color: #f8d298;
 
 }
@@ -224,13 +223,6 @@ transition: all 0.5s;
     } 
 
 
-    .container-parrafo {
-
-        font-size: 75%;
-        
-    }
-
-
     .pie {
 
         height: 5rem;
@@ -262,11 +254,6 @@ transition: all 0.5s;
 
     } 
 
-    .container-parrafo {
-
-        font-size: 75%;
-        
-    }
 
 
     .pie {

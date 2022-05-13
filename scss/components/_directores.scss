@@ -1,0 +1,41 @@
+@import '../base/variables';
+
+body {
+    
+    main {
+        
+        section {
+
+
+            div {
+
+                div {
+
+                    .texto-director {
+
+                        color:$bg-color;
+                        background-color: $tx-color;
+                        text-align: center;
+
+                        .titulo-dir {
+
+                            font-weight: bold;
+                            
+                        }
+
+                        p {
+                            
+                            span {
+
+                                font-style: oblique;
+                                
+                            }
+                        }                   
+                    }
+                }
+            }
+        }
+    }
+}
+
+    
