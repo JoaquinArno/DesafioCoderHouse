@@ -1,4 +1,5 @@
 @import '../base/variables';
+@import '../base/mapas';
 
 body {
     
@@ -9,13 +10,16 @@ body {
 
             div {
 
-                div {
+                .card {
+
+                    border: 2px solid $bg-color;
 
                     .texto-director {
 
                         color:$bg-color;
                         background-color: $tx-color;
                         text-align: center;
+                        
 
                         .titulo-dir {
 

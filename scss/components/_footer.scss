@@ -1,4 +1,7 @@
 @import '../base/variables';
+@import '../base/extends';
+@import '../base/mapas';
+@import '../base/mixins';
 
 body {
 
@@ -10,9 +13,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-        display: flex;
+        @extend %flex;
 
         div {
 
@@ -56,9 +57,8 @@ body {
         
         .container-redes {
  
-            width: 50%;   
-            display: flex;
-            justify-content: flex-end;
+            width: 50%;
+            @include flexbox (flex, flex-end);   
 
             .img-redes {
 

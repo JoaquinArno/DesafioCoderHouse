@@ -1,0 +1,6 @@
+@mixin flexbox ($flex1, $flex2) {
+
+ display: $flex1;
+ justify-content: $flex2;  
+    
+}
