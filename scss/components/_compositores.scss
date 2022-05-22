@@ -1,0 +1,43 @@
+@import '../base/variables';
+@import '../base/mapas';
+
+body {
+    
+    main {
+        
+        section {
+
+
+            div {
+
+                .card {
+
+                    border: 2px solid $bg-color;
+
+                    .texto-compositor {
+
+                        color:$bg-color;
+                        background-color: $tx-color;
+                        text-align: center;
+                        
+
+                        .titulo-compositor {
+
+                            font-weight: bold;
+                            
+                        }
+
+                        p {
+                            
+                            span {
+
+                                font-style: oblique;
+                                
+                            }
+                        }                   
+                    }
+                }
+            }
+        }
+    }
+}
