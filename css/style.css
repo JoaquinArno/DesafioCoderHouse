@@ -174,4 +174,19 @@ body .pie {
   display: flex;
 }
 
+body main section div .card {
+  border: 2px solid rgb(0, 15, 34);
+}
+body main section div .card .texto-actor {
+  color: rgb(0, 15, 34);
+  background-color: #ffbd59;
+  text-align: center;
+}
+body main section div .card .texto-actor .titulo-actor {
+  font-weight: bold;
+}
+body main section div .card .texto-actor p span {
+  font-style: oblique;
+}
+
 /*# sourceMappingURL=style.css.map */
