@@ -1,0 +1,147 @@
+@import '../base/variables';
+@import '../base/mapas';
+
+
+.cuerpo {
+
+    background-image: url(../imagenes/fondo.png);
+
+
+    .newsletter {
+
+        height: 400px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+
+
+        .container-formulario{
+
+            background-color: $tx-color;
+            border: solid 2px $bg-color;
+            border-radius: 7px;
+            width: 75%;
+            padding: 6px;
+
+
+            .container-parrafo {
+
+                display: flex;
+                justify-content: center;
+
+
+                .texto-newsletter {
+
+                    color: $bg-color;
+                    font-weight: bold;
+                    font-size: 20px;
+                    text-align: center;
+
+
+                    @media screen and (max-width: 450px) {
+
+                        font-size: 15px;
+               
+                    }
+         
+                    @media screen and (min-width: 451px) and (max-width: 960px) {
+         
+                        font-size: 15px;
+                        
+         
+                    }
+                       
+                }
+                   
+            }
+        
+        }
+
+
+        form {
+
+
+            .formulario {
+
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: center;
+
+
+                input {
+
+                    background-color: #f8d298;
+                    border: solid 2px $bg-color;
+                    width: 25%;
+                    padding: 3px;
+
+                    @media screen and (max-width: 450px) {
+
+                        width: 50%;
+                    }
+         
+                    @media screen and (min-width: 451px) and (max-width: 960px) {
+         
+                        width: 50%;
+                        
+                    }
+                        
+                }
+                        
+                        
+                label {
+                        
+                    color: $bg-color;
+
+                    @media screen and (max-width: 450px) {
+
+                        font-size: 12px;
+               
+                    }
+         
+                    @media screen and (min-width: 451px) and (max-width: 960px) {
+         
+                        font-size: 15px;
+                                
+                    }
+                        
+                }
+                        
+                        
+                button {
+                        
+                    background-color: #f8d298;
+                    color: $bg-color;
+                    border: solid 2px $bg-color;
+                    padding: 3px;
+                    margin-top: 6px;
+                    margin-bottom: 6px;
+                        
+                }
+                    
+            }
+
+        }
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,6 @@
 
 body {
 
-    background-image: url(./imagenes/fondo.png);
 
     .cabecera {
 
@@ -38,6 +37,18 @@ body {
             padding-right: 3%;
             padding-bottom: 6%;
             grid-column: 2 / span 3;
+
+            @media screen and (max-width: 450px) {
+
+                font-size: 13px;
+       
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 960px) {
+
+                font-size: 15px;
+
+            }
            
         }
 
@@ -70,9 +81,46 @@ body {
                     transition: all 0.5s; 
                     color: #f4dfc0;
                     
-                }    
+                }
+                
+                @media screen and (min-width: 451px) and (max-width: 960px) {
+
+                    padding: 15px;
+    
+                }
+
             }
+
+            @media screen and (max-width: 450px) {
+
+               font-size: 13px;
+               padding-right: 7px;
+      
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 960px) {
+
+                font-size: 14px;
+
+            }
+    
         }
+
+        @media screen and (max-width: 450px) {
+
+          height: 12rem;
+
+        }
+
+        @media screen and (min-width: 451px) and (max-width: 960px) {
+
+            height: 15rem;
+
+        }
+
+
+
+
     }
 }
 
