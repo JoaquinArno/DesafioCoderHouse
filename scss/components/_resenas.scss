@@ -1,0 +1,102 @@
+@import '../base/variables';
+@import '../base/mapas';
+
+
+body {
+
+    .principal {
+
+        .resenas {
+
+            display: grid;
+            justify-items: center;
+
+            .container-card {
+
+                background-color: $tx-color;
+                color: $bg-color;
+                border: solid 2px $bg-color;
+                border-radius: 7px;
+              
+
+                .contenido-card {
+
+                    padding: 3px;
+
+
+                    div {
+
+                        div {
+
+                            .titulo {
+
+                                font-weight: bold;
+                                font-size: 30px;
+
+                            }
+
+                            .subtitulo{
+
+                                font-style: oblique;
+
+                                span {
+
+                                    font-weight: bold;
+
+                                }
+
+                            }
+
+                            .calificacion {
+
+                                font-style: oblique;
+
+                                span {
+
+                                    font-weight: bold;
+                                }
+                                
+                            }
+
+                            .texto {
+
+                                span {
+
+                                    font-weight: bold;
+
+
+                                }
+
+
+
+
+                            }
+
+
+
+                        } 
+
+
+
+
+                    }
+
+                }
+                    
+            }
+                
+        }
+            
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

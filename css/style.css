@@ -107,7 +107,7 @@ body main section div .card .texto-director p span {
 }
 
 body {
-  background-color: #012e69;
+  background-color: #012452;
 }
 body main section .carousel div .img-carousel {
   object-fit: cover;
@@ -254,84 +254,114 @@ body main section div .card .texto-compositor p span {
   font-style: oblique;
 }
 
-.cuerpo {
-  background-image: url(../imagenes/fondo.png);
-}
-.cuerpo .newsletter {
+body .newsletter {
   height: 400px;
   display: grid;
   justify-items: center;
   align-items: center;
 }
-.cuerpo .newsletter .container-formulario {
+body .newsletter .container-formulario {
   background-color: #ffbd59;
   border: solid 2px rgb(0, 15, 34);
   border-radius: 7px;
   width: 75%;
   padding: 6px;
 }
-.cuerpo .newsletter .container-formulario .container-parrafo {
+body .newsletter .container-formulario .container-parrafo {
   display: flex;
   justify-content: center;
 }
-.cuerpo .newsletter .container-formulario .container-parrafo .texto-newsletter {
+body .newsletter .container-formulario .container-parrafo .texto-newsletter {
   color: rgb(0, 15, 34);
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 @media screen and (max-width: 450px) {
-  .cuerpo .newsletter .container-formulario .container-parrafo .texto-newsletter {
+  body .newsletter .container-formulario .container-parrafo .texto-newsletter {
     font-size: 15px;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  .cuerpo .newsletter .container-formulario .container-parrafo .texto-newsletter {
+  body .newsletter .container-formulario .container-parrafo .texto-newsletter {
     font-size: 15px;
   }
 }
-.cuerpo .newsletter form .formulario {
+body .newsletter form .formulario {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
 }
-.cuerpo .newsletter form .formulario input {
+body .newsletter form .formulario input {
   background-color: #f8d298;
   border: solid 2px rgb(0, 15, 34);
   width: 25%;
   padding: 3px;
 }
 @media screen and (max-width: 450px) {
-  .cuerpo .newsletter form .formulario input {
+  body .newsletter form .formulario input {
     width: 50%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  .cuerpo .newsletter form .formulario input {
+  body .newsletter form .formulario input {
     width: 50%;
   }
 }
-.cuerpo .newsletter form .formulario label {
+body .newsletter form .formulario label {
   color: rgb(0, 15, 34);
 }
 @media screen and (max-width: 450px) {
-  .cuerpo .newsletter form .formulario label {
+  body .newsletter form .formulario label {
     font-size: 12px;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  .cuerpo .newsletter form .formulario label {
+  body .newsletter form .formulario label {
     font-size: 15px;
   }
 }
-.cuerpo .newsletter form .formulario button {
+body .newsletter form .formulario button {
   background-color: #f8d298;
   color: rgb(0, 15, 34);
   border: solid 2px rgb(0, 15, 34);
   padding: 3px;
   margin-top: 6px;
   margin-bottom: 6px;
+}
+
+body .principal .resenas {
+  display: grid;
+  justify-items: center;
+}
+body .principal .resenas .container-card {
+  background-color: #ffbd59;
+  color: rgb(0, 15, 34);
+  border: solid 2px rgb(0, 15, 34);
+  border-radius: 7px;
+}
+body .principal .resenas .container-card .contenido-card {
+  padding: 3px;
+}
+body .principal .resenas .container-card .contenido-card div div .titulo {
+  font-weight: bold;
+  font-size: 30px;
+}
+body .principal .resenas .container-card .contenido-card div div .subtitulo {
+  font-style: oblique;
+}
+body .principal .resenas .container-card .contenido-card div div .subtitulo span {
+  font-weight: bold;
+}
+body .principal .resenas .container-card .contenido-card div div .calificacion {
+  font-style: oblique;
+}
+body .principal .resenas .container-card .contenido-card div div .calificacion span {
+  font-weight: bold;
+}
+body .principal .resenas .container-card .contenido-card div div .texto span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
