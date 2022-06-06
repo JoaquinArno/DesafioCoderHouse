@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Tiro+Gurmukhi&display=swap");
 body .cabecera {
   height: 20rem;
   color: #ffbd59;
@@ -17,6 +18,8 @@ body .cabecera .container-logo .logo {
   height: auto;
 }
 body .cabecera .frase {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 90%;
   color: #f8d298;
   font-style: oblique;
   text-align: end;
@@ -36,10 +39,11 @@ body .cabecera .frase {
   }
 }
 body .cabecera .nav {
+  font-family: "Cinzel Decorative", cursive;
   width: 100%;
   padding-bottom: 1%;
   margin-bottom: 2%;
-  font-size: 125%;
+  font-size: 110%;
   grid-column-end: 4;
   grid-column-start: 2;
   display: flex;
@@ -88,19 +92,20 @@ body .cabecera .nav .lista-nav li :hover {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body main section div .card {
+  font-family: "Tiro Gurmukhi", serif;
   border: 2px solid rgb(0, 15, 34);
 }
 body main section div .card .texto-director {
   color: rgb(0, 15, 34);
   background-color: #ffbd59;
-  text-align: center;
+  text-align: justify;
 }
 body main section div .card .texto-director .titulo-dir {
   font-weight: bold;
+  text-align: center;
 }
 body main section div .card .texto-director p span {
   font-style: oblique;
@@ -108,6 +113,7 @@ body main section div .card .texto-director p span {
 
 body {
   background-color: #012452;
+  font-family: "Tiro Gurmukhi", serif;
 }
 body main section .carousel div .img-carousel {
   object-fit: cover;
@@ -140,6 +146,8 @@ body .pie {
 }
 
 body .pie {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 90%;
   height: 10rem;
   background: rgb(0, 15, 34);
   background: linear-gradient(180deg, rgba(0, 15, 34, 0) 0%, rgb(0, 15, 34) 10%);
@@ -148,7 +156,7 @@ body .pie {
   grid-template-rows: 1fr 1fr 1fr;
 }
 body .pie div .logo2 {
-  width: 20%;
+  width: 25%;
   height: auto;
   padding-top: 1%;
   padding-left: 5%;
@@ -225,15 +233,17 @@ body .pie {
 }
 
 body main section div .card {
+  font-family: "Tiro Gurmukhi", serif;
   border: 2px solid rgb(0, 15, 34);
 }
 body main section div .card .texto-actor {
   color: rgb(0, 15, 34);
   background-color: #ffbd59;
-  text-align: center;
+  text-align: justify;
 }
 body main section div .card .texto-actor .titulo-actor {
   font-weight: bold;
+  text-align: center;
 }
 body main section div .card .texto-actor p span {
   font-style: oblique;

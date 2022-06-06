@@ -11,19 +11,21 @@ body {
             div {
 
                 .card {
-
+                    
+                    font-family: 'Tiro Gurmukhi', serif;
                     border: 2px solid $bg-color;
 
                     .texto-actor {
 
                         color:$bg-color;
                         background-color: $tx-color;
-                        text-align: center;
+                        text-align: justify;
                         
 
                         .titulo-actor {
 
                             font-weight: bold;
+                            text-align: center;
                             
                         }
 

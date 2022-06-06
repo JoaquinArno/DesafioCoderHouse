@@ -12,18 +12,20 @@ body {
 
                 .card {
 
+                    font-family: 'Tiro Gurmukhi', serif;
                     border: 2px solid $bg-color;
 
                     .texto-director {
 
                         color:$bg-color;
                         background-color: $tx-color;
-                        text-align: center;
+                        text-align: justify;
                         
 
                         .titulo-dir {
 
                             font-weight: bold;
+                            text-align: center;
                             
                         }
 
