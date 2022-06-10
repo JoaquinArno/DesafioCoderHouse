@@ -2,7 +2,7 @@
 body .cabecera {
   height: 20rem;
   color: #ffbd59;
-  background: rgb(0, 15, 34);
+  background: #000f22;
   background: linear-gradient(180deg, rgb(0, 15, 34) 95%, rgba(0, 15, 34, 0) 100%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -30,12 +30,12 @@ body .cabecera .frase {
 }
 @media screen and (max-width: 450px) {
   body .cabecera .frase {
-    font-size: 13px;
+    font-size: 9px;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
   body .cabecera .frase {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 body .cabecera .nav {
@@ -69,13 +69,13 @@ body .cabecera .nav .lista-nav li :hover {
 }
 @media screen and (max-width: 450px) {
   body .cabecera .nav {
-    font-size: 13px;
+    font-size: 7px;
     padding-right: 7px;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
   body .cabecera .nav {
-    font-size: 14px;
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -96,10 +96,10 @@ body .cabecera .nav .lista-nav li :hover {
 
 body main section div .card {
   font-family: "Tiro Gurmukhi", serif;
-  border: 2px solid rgb(0, 15, 34);
+  border: 2px solid #000f22;
 }
 body main section div .card .texto-director {
-  color: rgb(0, 15, 34);
+  color: #000f22;
   background-color: #ffbd59;
   text-align: justify;
 }
@@ -135,8 +135,18 @@ body main section .carousel div div .texto-carousel .titulo-art {
   font-weight: bold;
   color: #ffbd59;
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  body main section .carousel div div .texto-carousel .titulo-art {
+    font-size: 16px;
+  }
+}
 body main section .carousel div div .texto-carousel .link-art {
   color: #f8d298;
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  body main section .carousel div div .texto-carousel {
+    font-size: 12px;
+  }
 }
 
 body .pie {
@@ -149,7 +159,7 @@ body .pie {
   font-family: "Cinzel Decorative", cursive;
   font-size: 90%;
   height: 10rem;
-  background: rgb(0, 15, 34);
+  background: #000f22;
   background: linear-gradient(180deg, rgba(0, 15, 34, 0) 0%, rgb(0, 15, 34) 10%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -163,13 +173,13 @@ body .pie div .logo2 {
 }
 @media screen and (max-width: 450px) {
   body .pie div .logo2 {
-    width: 40%;
+    width: 50%;
     height: auto;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
   body .pie div .logo2 {
-    width: 40%;
+    width: 50%;
     height: auto;
   }
 }
@@ -184,35 +194,49 @@ body .pie .container-contacto .mail {
 }
 @media screen and (max-width: 450px) {
   body .pie .container-contacto {
-    font-size: 90%;
+    font-size: 70%;
     padding-right: 25%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
   body .pie .container-contacto {
-    font-size: 90%;
+    font-size: 75%;
     padding-right: 20%;
   }
 }
 body .pie .container-redes {
-  width: 50%;
+  width: 35%;
   display: flex;
   justify-content: flex-end;
+  justify-items: flex-end;
+}
+@media screen and (max-width: 450px) {
+  body .pie .container-redes {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  body .pie .container-redes {
+    width: 45%;
+  }
 }
 body .pie .container-redes .img-redes {
-  width: 35%;
+  width: 30%;
   height: auto;
 }
 @media screen and (max-width: 450px) {
   body .pie .container-redes .img-redes {
     width: 60%;
-    padding-right: 15%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
   body .pie .container-redes .img-redes {
-    width: 50%;
-    padding-right: 15%;
+    width: 65%;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 960px) {
+  body .pie .container-redes .img-redes {
+    width: 30%;
   }
 }
 @media screen and (max-width: 450px) {
@@ -234,10 +258,10 @@ body .pie {
 
 body main section div .card {
   font-family: "Tiro Gurmukhi", serif;
-  border: 2px solid rgb(0, 15, 34);
+  border: 2px solid #000f22;
 }
 body main section div .card .texto-actor {
-  color: rgb(0, 15, 34);
+  color: #000f22;
   background-color: #ffbd59;
   text-align: justify;
 }
@@ -250,10 +274,10 @@ body main section div .card .texto-actor p span {
 }
 
 body main section div .card {
-  border: 2px solid rgb(0, 15, 34);
+  border: 2px solid #000f22;
 }
 body main section div .card .texto-compositor {
-  color: rgb(0, 15, 34);
+  color: #000f22;
   background-color: #ffbd59;
   text-align: center;
 }
@@ -272,7 +296,7 @@ body .newsletter {
 }
 body .newsletter .container-formulario {
   background-color: #ffbd59;
-  border: solid 2px rgb(0, 15, 34);
+  border: solid 2px #000f22;
   border-radius: 7px;
   width: 75%;
   padding: 6px;
@@ -282,7 +306,7 @@ body .newsletter .container-formulario .container-parrafo {
   justify-content: center;
 }
 body .newsletter .container-formulario .container-parrafo .texto-newsletter {
-  color: rgb(0, 15, 34);
+  color: #000f22;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -305,7 +329,8 @@ body .newsletter form .formulario {
 }
 body .newsletter form .formulario input {
   background-color: #f8d298;
-  border: solid 2px rgb(0, 15, 34);
+  border: solid 2px #000f22;
+  border-radius: 5px;
   width: 25%;
   padding: 3px;
 }
@@ -320,7 +345,7 @@ body .newsletter form .formulario input {
   }
 }
 body .newsletter form .formulario label {
-  color: rgb(0, 15, 34);
+  color: #000f22;
 }
 @media screen and (max-width: 450px) {
   body .newsletter form .formulario label {
@@ -334,8 +359,9 @@ body .newsletter form .formulario label {
 }
 body .newsletter form .formulario button {
   background-color: #f8d298;
-  color: rgb(0, 15, 34);
-  border: solid 2px rgb(0, 15, 34);
+  color: #000f22;
+  border: solid 2px #000f22;
+  border-radius: 5px;
   padding: 3px;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -347,28 +373,32 @@ body .principal .resenas {
 }
 body .principal .resenas .container-card {
   background-color: #ffbd59;
-  color: rgb(0, 15, 34);
-  border: solid 2px rgb(0, 15, 34);
+  color: #000f22;
+  border: solid 2px #000f22;
   border-radius: 7px;
 }
 body .principal .resenas .container-card .contenido-card {
   padding: 3px;
 }
+body .principal .resenas .container-card .contenido-card div .ficha {
+  font-style: oblique;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+body .principal .resenas .container-card .contenido-card div .ficha span {
+  font-weight: bold;
+}
+body .principal .resenas .container-card .contenido-card div .calificacion {
+  font-style: oblique;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+body .principal .resenas .container-card .contenido-card div .calificacion span {
+  font-weight: bold;
+}
 body .principal .resenas .container-card .contenido-card div div .titulo {
   font-weight: bold;
   font-size: 30px;
-}
-body .principal .resenas .container-card .contenido-card div div .subtitulo {
-  font-style: oblique;
-}
-body .principal .resenas .container-card .contenido-card div div .subtitulo span {
-  font-weight: bold;
-}
-body .principal .resenas .container-card .contenido-card div div .calificacion {
-  font-style: oblique;
-}
-body .principal .resenas .container-card .contenido-card div div .calificacion span {
-  font-weight: bold;
 }
 body .principal .resenas .container-card .contenido-card div div .texto span {
   font-weight: bold;

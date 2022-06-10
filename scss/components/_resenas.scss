@@ -11,6 +11,7 @@ body {
             display: grid;
             justify-items: center;
 
+
             .container-card {
 
                 background-color: $tx-color;
@@ -22,6 +23,37 @@ body {
                 .contenido-card {
 
                     padding: 3px;
+
+                    div {
+
+                        .ficha {
+
+                            font-style: oblique;
+                            padding-top: 10px;
+                            padding-left: 10px;
+
+                            span {
+
+                                font-weight: bold;
+                                
+
+                            }
+
+                        }
+
+
+                        .calificacion {
+
+                            font-style: oblique;
+                            padding-top: 10px;
+                            padding-left: 10px;
+
+                            span {
+
+                                font-weight: bold;
+                            }                          
+                       }                        
+                    }
 
 
                     div {
@@ -35,28 +67,6 @@ body {
 
                             }
 
-                            .subtitulo{
-
-                                font-style: oblique;
-
-                                span {
-
-                                    font-weight: bold;
-
-                                }
-
-                            }
-
-                            .calificacion {
-
-                                font-style: oblique;
-
-                                span {
-
-                                    font-weight: bold;
-                                }
-                                
-                            }
 
                             .texto {
 
