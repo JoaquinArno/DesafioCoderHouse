@@ -280,10 +280,11 @@ body main section div .card {
 body main section div .card .texto-compositor {
   color: #000f22;
   background-color: #ffbd59;
-  text-align: center;
+  text-align: justify;
 }
 body main section div .card .texto-compositor .titulo-compositor {
   font-weight: bold;
+  text-align: center;
 }
 body main section div .card .texto-compositor p span {
   font-style: oblique;
