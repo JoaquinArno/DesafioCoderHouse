@@ -106,8 +106,7 @@ body {
                     }
                         
                 }
-                        
-                        
+
                 button {
                         
                     background-color: #f8d298;
@@ -117,7 +116,15 @@ body {
                     padding: 3px;
                     margin-top: 6px;
                     margin-bottom: 6px;
+                    transition-property: all;
+                    transition-duration: 0.5s;
                         
+                }
+
+                button:hover{
+
+                    background-color: #ffbd59;
+                    
                 }
                     
             }

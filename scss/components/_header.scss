@@ -71,19 +71,23 @@ body {
                 width: 100%;
                 display: flex;
                 justify-content: space-around;
-               
-                .link-nav {
 
-                    color: $tx-color;
-                    text-decoration: none;
-                   
-                }
 
-                li :hover {
+                li {
 
-                    transition: all 0.5s; 
-                    color: #f4dfc0;
-                    
+                    .link-nav {
+
+                        color: $tx-color;
+                        text-decoration: none;
+                       
+                    }
+
+                    :hover {
+
+                        transition-property: all;
+                        transition-duration: 1s;
+                        color: #f4dfc0;
+                    }
                 }
                 
                 @media screen and (min-width: 451px) and (max-width: 960px) {
@@ -120,10 +124,6 @@ body {
             height: 15rem;
 
         }
-
-
-
-
     }
 }
 

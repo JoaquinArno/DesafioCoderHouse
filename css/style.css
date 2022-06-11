@@ -54,12 +54,13 @@ body .cabecera .nav .lista-nav {
   display: flex;
   justify-content: space-around;
 }
-body .cabecera .nav .lista-nav .link-nav {
+body .cabecera .nav .lista-nav li .link-nav {
   color: #ffbd59;
   text-decoration: none;
 }
 body .cabecera .nav .lista-nav li :hover {
-  transition: all 0.5s;
+  transition-property: all;
+  transition-duration: 1s;
   color: #f4dfc0;
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
@@ -365,6 +366,11 @@ body .newsletter form .formulario button {
   padding: 3px;
   margin-top: 6px;
   margin-bottom: 6px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+body .newsletter form .formulario button:hover {
+  background-color: #ffbd59;
 }
 
 body .principal .resenas {

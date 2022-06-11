@@ -2,13 +2,14 @@
 @import '../base/mapas';
 
 body {
-    
+
     main {
-        
+
         section {
 
 
             div {
+
 
                 .card {
 
@@ -20,23 +21,23 @@ body {
                         color:$bg-color;
                         background-color: $tx-color;
                         text-align: justify;
-                        
+
 
                         .titulo-dir {
 
                             font-weight: bold;
                             text-align: center;
-                            
+
                         }
 
                         p {
-                            
+
                             span {
 
                                 font-style: oblique;
-                                
+
                             }
-                        }                   
+                        }
                     }
                 }
             }
@@ -44,4 +45,4 @@ body {
     }
 }
 
-    
+
